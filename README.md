@@ -1,17 +1,14 @@
-# base
+# Geolocaion
 
-## Project setup
+## This is an application for you to find places and locate your current location on Google Map :world_map:
+
+
+### This project includes the use of Google API, please add the following line in .env 
 
 ```
-# yarn
-yarn
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+VITE_API_KEY = YOUR_API_KEY 
 ```
+
 
 ### Compiles and hot-reloads for development
 
@@ -25,33 +22,3 @@ npm run dev
 # pnpm
 pnpm dev
 ```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
